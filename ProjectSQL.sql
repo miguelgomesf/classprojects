@@ -1,5 +1,5 @@
---Projeto que visa analisar dados de Covid com foco na América do Sul e Brasil--
---Skills usadas: Joins
+--Projeto que visa analisar dados de Covid com foco na AmÃ©rica do Sul e Brasil--
+--Skills usadas: Joins, aggregate functions, entre outros
 
 select location, date, total_cases, total_deaths, population, total_deaths/total_cases as deaths_per_case
 from PortfolioProject..CovidDeaths
